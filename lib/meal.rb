@@ -9,7 +9,7 @@ class Meal
     @customer = customer
     @total = total
     @tip = tip
-    @@all << self
+    Meal.all << self
   end
 
   def self.all?
